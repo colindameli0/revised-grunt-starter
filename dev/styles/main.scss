@@ -1,0 +1,23 @@
+/* IMPORTS =================================*/
+
+@import 'reset';
+
+/* DEFAULTS ================================ */
+html {font-size: 62.5%;}
+body {font-size: 1.4rem;}
+a{color: #0060B6;text-decoration: none;}
+a:hover{color: #00A0C6;cursor: pointer;}
+div.container {
+	width: 90%;
+	max-width: 1340px; 
+	margin: 0 auto;
+}
+
+/* TYPOGRAPHY ============================== */
+h1, h2, h3, h4, h5, h6 {font-size: 1.6rem;}
+
+/* CONTENT ================================= */
+
+h1 {
+	color: pink;
+}
