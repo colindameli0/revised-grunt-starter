@@ -21,7 +21,6 @@
   }
 }
 
-/* Medium Devices, Desktops*/
 @mixin bp-medium {
   @media only screen and (max-width: 768px ) {
     @content;
@@ -31,6 +30,17 @@
 @mixin bp-small {
   @media only screen and (max-width: 480px ) {
     @content;
+  }
+}
+
+
+// Clearfix
+// @extend %clearfix
+%clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
   }
 }
 
@@ -54,3 +64,4 @@
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie); //IE8
 }
+
